@@ -13,3 +13,5 @@
 - 第七章 描述性分析
 - 第八章 预测性分析
 - 第九章 因果推断
+- [第十章 组织数据分析流程](./10_data_analytics_procedure/README.md)
+- [第十一章 组织大数据工程](./11_big_data_engineering/README.md)
