@@ -1,48 +1,27 @@
 # 目录
 
-- 第一章 简介
-- 第二章 NumPy和SciPy
-  - [2.1 面向数组编程](./2_numpy/2_1_array_programming_with_numpy.md)
-- [第三章 Pandas简介](./3_pandas/README.md)
-  - [3.1 使用数据框处理数据](./3_pandas/3_1_dataframe_with_pandas.md)
-- 第四章 Matplotlib
-- 第五章 Statsmodels和Sklearn
-- [第六章 数据处理](./6_data_processing/README.md)
-  - [6.1 转换](./6_data_processing/6_1_transform.md)
-  - [6.2 清洗](./6_data_processing/6_2_clean.md)
-  - [6.3 连接](./6_data_processing/6_3_concat.md)
-  - [6.4 重塑](./6_data_processing/6_4_reshape.md)
-  - [6.5 提取特征](./6_data_processing/6_5_extract_features.md)
+<!--- 第一部分 快速入门 -->
+- [第一章 快速入门](01_quick_start/README.md)
+
+<!-- 第二部分 基础知识和工具箱 -->
+<!-- 暂时以主要库命名，后续丰富以后考虑以类别命名 -->
+- [第二章 NumPy和SciPy](02_numpy_and_scipy/README.md)
+  - [2.1 NumPy入门](02_numpy_and_scipy/1_numpy/README.md)
+    - [2.1.1 面向数组编程](02_numpy_and_scipy/1_numpy/1_array_programming_with_numpy.md)
+- [第三章 Pandas](03_pandas/README.md)
+  - [3.1 Pandas入门](03_pandas/1_intro/README.md)
+    - [3.1.1 使用数据框处理数据](03_pandas/1_dataframe_with_pandas.md)
+- [第四章 可视化](04_plotting/README.md)
+  - [4.1 Matplotlib](04_plot/1_matplotlib/README.md)
+- [第五章 统计建模](05_statstical_modeling/README.md)
+  - [5.1 统计学](05_statstical_modeling/1_statsmodel/README.md)
+  - [5.2 计量经济学](05_statstical_modeling/2_linearmodels/README.md)
+  - [5.3 机器学习](05_statstical_modeling/3_sklearn/README.md)
+  - [5.4 深度学习](05_statstical_modeling/4_tensorflow_and_pytorch/README.md)
+
+<!-- 第三部分 流程和领域知识 -->
+
+- 第六章 数据预处理
 - 第七章 描述性分析
-- 第八章 预测性分析
-- 第九章 因果推断
-- [第十章 组织数据分析流程](./10_data_analytics_procedure/README.md)
-  - [10.1 收集](./10_data_analytics_procedure/1_collect/README.md)
-    - [10.1.1 通过爬虫采集网络数据](./10_data_analytics_procedure/1_collect/10_1_1_from_internet_by_web_scraping.md)
-    - [10.1.2 公司内部业务数据库](./10_data_analytics_procedure/1_collect/10_1_2_from_business_database.md)
-    - [10.1.3 调研](./10_data_analytics_procedure/1_collect/10_1_3_from_survey.md)
-    - [10.1.4 小结](./10_data_analytics_procedure/1_collect/10_1_4_summary.md)
-  - [10.2 处理](./10_data_analytics_procedure/2_process/README.md)
-  - [10.3 分析](./10_data_analytics_procedure/3_analyze/README.md)
-    - [10.3.1 描述](./10_data_analytics_procedure/3_analyze/10_3_1_describe.md)
-    - [10.3.2 建模](./10_data_analytics_procedure/3_analyze/10_3_2_model.md)
-    - [10.3.3 推断](./10_data_analytics_procedure/3_analyze/10_3_3_infer.md)
-    - [10.3.4 预测](./10_data_analytics_procedure/3_analyze/10_3_4_predict.md)
-- [第十一章 组织大数据工程](./11_big_data_engineering/README.md)
-  - [11.1 合理解耦](./11_big_data_engineering/1_decouple_in_reason/README.md)
-  - [11.2 加速每个步骤](.//11_big_data_engineering/2_speed_up_each_step/README.md)
-  - [11.3 编排全过程](./11_big_data_engineering/3_arrange_all_steps/README.md)
-  - [11.4 使流程可重复](.//11_big_data_engineering/4_make_it_repeatable/README.md)
-  - [11.5 治理数据资产](.//11_big_data_engineering/5_govern_data_assets/README.md)
-- [第十二章 来自不同领域专家的视角](./12_views_by_experts_in_different_fields/README.md)
-  - [12.1 统计学家](./12_views_by_experts_in_different_fields/1_statistians/README.md)
-  - [12.2 计量经济学家](./12_views_by_experts_in_different_fields/2_econometricians/README.md)
-  - [12.3 机器学习专家](./12_views_by_experts_in_different_fields/3_machine_learning_experts/README.md)
-  - [12.4 小结](./12_views_by_experts_in_different_fields/4_summary/README.md)
-- [第十三章 典型商业应用](./13_classical_business_applications/README.md)
-  - [13.1 Google的广告定价系统](./13_classical_business_applications/1_google_ads_auction/README.md)
-  - [13.2 Uber的定价和匹配机制](./13_classical_business_applications/2_uber_pricing_and_dispatching/README.md)
-- [第十四章 建设数据分析团队](./14_build_data_analytics_team/README.md)
-  - [14.1 工具](./14_build_data_analytics_team/1_tools/README.md)
-  - [14.2 流程](./14_build_data_analytics_team/2_procedure/README.md)
-  - [14.3 文化](./14_build_data_analytics_team/3_culture/README.md)
+- 第八章 因果推断
+- 第九章 预测性分析
