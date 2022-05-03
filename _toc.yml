@@ -1,0 +1,37 @@
+format: jb-book
+root: README
+defaults:
+  numbered: true
+parts:
+  - caption: 快速入门
+    chapters:
+      - file: 01_quick_start/README
+  - caption: 工具箱
+    chapters:
+      - file: 02_numpy_and_scipy/README
+        sections:
+        - file: 02_numpy_and_scipy/1_numpy/README
+        - file: 02_numpy_and_scipy/moviepy/README
+      - file: 03_pandas/pivot
+        sections:
+          - file: 03_pandas/README
+          - file: 03_pandas/1_intro/1_dataframe_with_pandas
+          - file: 03_pandas/geopandas/README
+      - file: 04_plotting/README
+        sections:
+          - file: 04_plotting/1_matplotlib/README
+      - file: 05_statstical_modeling/README
+        sections:
+          - file: 05_statstical_modeling/1_statsmodel/README
+          - file: 05_statstical_modeling/2_linearmodels/README
+          - file: 05_statstical_modeling/3_sklearn/README
+          - file: 05_statstical_modeling/4_tensorflow_and_pytorch/README
+  - caption: 流程
+    chapters:
+      - file: 06_data_processing/1_transform
+        sections:
+          - file: 06_data_processing/2_clean
+          - file: 06_data_processing/3_concat
+          - file: 06_data_processing/4_reshape
+          - file: 06_data_processing/5_extract_features
+          - file: 06_data_processing/README

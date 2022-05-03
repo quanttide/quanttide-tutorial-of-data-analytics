@@ -10,7 +10,7 @@
 
 使用Python写的效果是这样的：
 
-```python
+```{code-cell} ipython
 # 输入数据
 x: List[float] = []
 y: List[float] = []
@@ -47,7 +47,7 @@ beta0 = y_mean - x_mean*beta1
 如果我们有一种工具，可以比较好地支持矩阵计算，岂不是可以在矩阵表达式长什么样子的前提下就可以写出什么样的代码？这样代码行数可以减少到1/5甚至1/10，而且写起来和读起来也更加直观。
 “面向数组的编程”很好地解决了这类问题。本文即将介绍的Python库NumPy，以及Matlab、R等同类语言和软件都有相应的设计支持。这里让我们尝试使用NumPy重写：
 
-```python
+```{code-cell} ipython
 import numpy as np
 
 # 输入数据
