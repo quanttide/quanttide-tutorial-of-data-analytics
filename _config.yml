@@ -1,3 +1,12 @@
+# QtClass Config
 name: data-analytics-with-python
 title: Python数据分析教程
 author: 量潮科技
+description: Python数据分析入门到进阶
+level: introductory
+stage: dev
+tags:
+  - python
+  - data_analytics
+# Jupyter Book Config
+only_build_toc_files: true
